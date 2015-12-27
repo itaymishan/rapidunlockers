@@ -1,0 +1,8 @@
+﻿Group: Widgets
+FriendlyName: Facebook Like
+SystemName: Widgets.FacebookLike
+Version: 1.01
+SupportedVersions: 2.70, 2.80, 3.00
+Author: Cooper Chen
+DisplayOrder: 1
+FileName: Nop.Plugin.Widgets.FacebookLike.dll

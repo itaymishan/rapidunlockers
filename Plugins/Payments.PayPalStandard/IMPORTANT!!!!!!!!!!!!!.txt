@@ -1,0 +1,20 @@
+﻿Group: Payment methods
+FriendlyName: PayPal Standard
+SystemName: Payments.PayPalStandard
+Version: 1.16
+SupportedVersions: 3.10
+Author: nopCommerce team
+DisplayOrder: 1
+FileName: Nop.Plugin.Payments.PayPalStandard.dll
+
+***itay
+change:
+
+            if (postProcessPaymentRequest.Order.ShippingStatus != ShippingStatus.ShippingNotRequired)
+                //builder.AppendFormat("&no_shipping=2", new object[0]); (replace)--> builder.AppendFormat("&no_shipping=1", new object[0]);
+                
+            else
+                builder.AppendFormat("&no_shipping=1", new object[0]);
+
+
+builder.AppendFormat("&address_override=1"); (replace)--> builder.AppendFormat("&address_override=0");

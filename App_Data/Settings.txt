@@ -1,0 +1,2 @@
+DataProvider: sqlserver
+DataConnectionString: Data Source=SQL5002.Smarterasp.net;Initial Catalog=DB_9A9ABC_rapidunlockers;Integrated Security=False;Persist Security Info=False;User ID=DB_9A9ABC_rapidunlockers_admin;Password=itaym777;MultipleActiveResultSets=True
