@@ -1,5 +1,5 @@
 # rapidunlockers
 ASP.NET
-Private Project:)
+Private Project
 
 URL : http://www.rapidunlockers.com/
